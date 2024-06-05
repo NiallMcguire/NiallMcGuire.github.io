@@ -1,13 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "On Ensemble Learning for Metnal Workload Classification"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+excerpt: 'IThe ability to determine a subject’s Mental Work Load (MWL) has a wide range of significant applications within modern working environments. In recent years, techniques such as Electroencephalography (EEG) have come to the forefront of MWL monitoring by extracting signals from the brain that correlate strongly to the workload of a subject. To effectively classify the MWL of a subject via their EEG data, prior works have employed machine and deep learning models. These studies have primarily utilised single-learner models to perform MWL classification. However, given the significance of accurately detecting a subject’s MWL for use in practical applications, steps should be taken to assess how we can increase the accuracy of these systems so that they are robust enough for use in real-world scenarios. Therefore, in this study, we investigate if the use of state-of-the-art ensemble learning strategies can improve performance over individual models. As such, we apply Bagging and Stacking ensemble techniques to the STEW dataset to classify “low”, “medium”, and “high” workload levels using EEG data. We also explore how different model compositions impact performance by modifying the type and quantity of models within each ensemble. The results from this study highlight that ensemble networks are capable of improving upon the accuracy of all their individual learner counterparts whilst reducing the variance of predictions, with our highest scoring model being a stacking BLSTM consisting of 8 learners, which achieved a classification accuracy of 97%.'
+date: 2024-02-15
+venue: 'International Conference on Machine Learning, Optimization, and Data Science'
+paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-53966-4_27'
+citation: 'McGuire, Niall, and Yashar Moshfeghi. "What Song Am I Thinking Of?." International Conference on Machine Learning, Optimization, and Data Science. 2023.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
