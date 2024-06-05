@@ -16,5 +16,3 @@ at the University of Strathclyde, graduating with a 1st Class Honours and obtain
 My research focuses on the use of contemporary Machine Learning models for the processing and decoding of neurphysiological data, specifically Electroencephalography (EEG) data and its downstream applications 
 in domains such as Human Computer Interaction (HCI) and Information Retrieval (IR). If you wish to get in contact with regarding potential work/collaboration, or simply to talk about
 developments in the field, please do so via my email address: niall.mcguire@strath.ac.uk.
-
-Test
