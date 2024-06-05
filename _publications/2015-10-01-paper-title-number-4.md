@@ -16,8 +16,7 @@ generating synthetic EEG samples via augmenting pre-existing EEG datasets for
 NLP to capture the semantics of textual input. To study our proposed approach,
 we develop CREATOR, synthetiC neuRolinguistic EEG dAta generaTOR, which
 leverages Generative Adversarial Networks (GANs) conditioned on text input to
-produce synthetic EEG samples for data augmentation. We investigated the effec-
-tiveness of SENSE on three popular EEG-Text paired NLP tasks i.e. Named Entity
+produce synthetic EEG samples for data augmentation. We investigated the effectiveness of CREATOR on three popular EEG-Text paired NLP tasks i.e. Named Entity
 Recognition, Sentiment Classification, and EEG-To-Text decoding. Our findings
 demonstrate that the synthetic EEG samples generated via CREATOR resulted in a
 statistically significant increase in the overall performance of each task by 6.6%,
