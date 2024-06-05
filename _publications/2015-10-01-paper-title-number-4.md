@@ -27,8 +27,8 @@ CREATOR EEG samples into task datasets. Our proposed CREATOR model serves
 as a first step in the production of synthetic EEG data samples for downstream NLP
 tasks facilitating the training of large and more complex Neurolinguistic models.'
 
-date: '2024'
-venue: ''
+date: 2024-05-01
+venue: 'Under Review'
 paperurl: 'http://NiallMcGuire.github.io/files/Niall_CREATOR_2024.pdf'
 ---
 
