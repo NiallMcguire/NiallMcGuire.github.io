@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-A data-driven personal website
-======
 I am Second Year PhD Candidate @<a href='https://www.strath.ac.uk/'>The University of Strathclyde</a> as part of the 
 <a href='https://www.strath.ac.uk/research/subjects/computerinformationscience/strathclydeischoolresearchgroup/'>iSchool Research Group</a> and <a href='https://strathprints.strath.ac.uk/79762/1/Moshfeghi_DESIRE_2021_NeuraSearch_neuroscience_and_information_retrieval.pdf'>NeuraSearch Laboratory</a>
 under the supervision of <a href='https://scholar.google.co.uk/citations?user=BaFcnWIAAAAJ&hl=en'>Dr Yashar Moshfeghi</a>. Before starting my PhD in 2022, I completed a four year undergrad in Computer Science 
