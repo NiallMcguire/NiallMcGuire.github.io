@@ -8,5 +8,3 @@ venue: 'International Conference on Machine Learning, Optimization, and Data Sci
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-53966-4_27'
 citation: 'McGuire, Niall, and Yashar Moshfeghi. "What Song Am I Thinking Of?." International Conference on Machine Learning, Optimization, and Data Science. 2023.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
