@@ -1,16 +1,11 @@
 ---
-layout: archive
+layout: research
 title: "Publications"
 permalink: /publications/
-author_profile: true
+section: publications
+author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<header class="page-heading wrap"><p class="eyebrow">Research / 2024 &ndash; 2026</p><h1>Publications<span>.</span></h1><p>Research on brain-based information retrieval, physiological signals, and human-computer interaction.</p></header>
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include publication-explorer.html %}

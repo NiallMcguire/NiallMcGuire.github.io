@@ -1,0 +1,78 @@
+- id: cross-sensory-eeg-2026
+  title: "Cross-Sensory Comparison of EEG Signals for Brain-Based Information Retrieval"
+  venue: SIGIR
+  venue_full: "ACM SIGIR Conference on Research and Development in Information Retrieval"
+  year: 2026
+  authors: "Niall McGuire, Yashar Moshfeghi"
+  topic: retrieval
+  summary: "Comparing EEG signals across sensory modalities in the context of brain-based information retrieval."
+- id: audio-passage-2026
+  title: "Cross-Sensory Brain Passage Retrieval: Scaling Beyond Visual to Audio"
+  venue: ECIR
+  venue_full: "European Conference on Information Retrieval"
+  year: 2026
+  authors: "Niall McGuire, Yashar Moshfeghi"
+  topic: retrieval
+  summary: "Extending brain passage retrieval beyond visually presented content to audio."
+- id: query-performance-2026
+  title: "On the Use of Electroencephalography in Query Performance Prediction"
+  venue: TOIS
+  venue_full: "ACM Transactions on Information Systems"
+  year: 2026
+  authors: "I. Tenedios, Niall McGuire, Yashar Moshfeghi"
+  topic: retrieval
+  summary: "Investigating the use of EEG signals in query performance prediction."
+- id: brain-passage-2025
+  title: "Towards Brain Passage Retrieval: An Investigation of EEG Query Representations"
+  venue: SIGIR
+  venue_full: "ACM SIGIR Conference on Research and Development in Information Retrieval"
+  year: 2025
+  authors: "Niall McGuire, Yashar Moshfeghi"
+  topic: retrieval
+  pdf: /files/BPR.pdf
+  summary: "Investigating EEG query representations for brain passage retrieval, connecting neural signals with textual information access."
+- id: brain-machine-ir-2025
+  title: "Brain-Machine Interfaces & Information Retrieval: Challenges and Opportunities"
+  venue: SIGIR
+  venue_full: "ACM SIGIR Conference on Research and Development in Information Retrieval"
+  year: 2025
+  authors: "Yashar Moshfeghi, Niall McGuire"
+  topic: retrieval
+  pdf: /files/Perspective.pdf
+  summary: "A perspective on brain-machine interfaces for information retrieval: neural correlates of information needs, contextual signals, proactive retrieval, and the technical and ethical challenges ahead."
+- id: airborne-errors-2025
+  title: "On Error Classification from Physiological Signals within Airborne Environment"
+  venue: CHI
+  venue_full: "ACM CHI Conference on Human Factors in Computing Systems"
+  year: 2025
+  authors: "Niall McGuire, Yashar Moshfeghi"
+  topic: hci
+  pdf: /files/CHI-2025.pdf
+  summary: "Investigating error classification from physiological signals in an airborne environment, at the intersection of human-computer interaction and neurophysiological modelling."
+- id: information-need-2024
+  title: "Prediction of the Realisation of an Information Need: An EEG Study"
+  venue: SIGIR
+  venue_full: "ACM SIGIR Conference on Research and Development in Information Retrieval"
+  year: 2024
+  authors: "Niall McGuire, Yashar Moshfeghi"
+  topic: retrieval
+  pdf: /files/Niall_Information_Need_SIGIR_2024.pdf
+  summary: "An EEG study of the realisation of an information need, investigating the cognitive processes that precede a formulated search query."
+- id: imagined-music-2024
+  title: "What Song Am I Thinking Of?"
+  venue: LOD
+  venue_full: "International Conference on Machine Learning, Optimization, and Data Science"
+  year: 2024
+  authors: ""
+  topic: retrieval
+  publisher: "https://link.springer.com/chapter/10.1007/978-3-031-53966-4_31"
+  summary: "Exploring EEG signals associated with imagined music to bridge the gap between a remembered song and a textual search query."
+- id: ensemble-workload-2024
+  title: "On Ensemble Learning for Mental Workload Classification"
+  venue: LOD
+  venue_full: "International Conference on Machine Learning, Optimization, and Data Science"
+  year: 2024
+  authors: ""
+  topic: hci
+  publisher: "https://link.springer.com/chapter/10.1007/978-3-031-53966-4_27"
+  summary: "Investigating ensemble learning methods for mental workload classification."

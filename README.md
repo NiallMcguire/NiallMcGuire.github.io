@@ -5,6 +5,18 @@
 
 Academic Pages is a Github Pages template for academic websites.
 
+## Updating the Research Site
+
+The homepage, publications page, and CV share the [research layout](_layouts/research.html), [stylesheet](assets/css/research.css), and [interaction script](assets/js/research.js). The homepage uses a compact profile sidebar and biography-led academic layout; on mobile, the profile stacks above the content. Other pages retain the original Academic Pages theme.
+
+- Update the biography and research interests in [the homepage](_pages/about.md), and academic history in [the CV](_pages/cv.md).
+- Update shared contact details and site metadata in [the configuration](_config.yml).
+- The publication explorer and selected CV publications use [research_publications.yml](_data/research_publications.yml). Keep entries in newest-first order; use `retrieval` or `hci` for `topic`, and a unique `id` for shareable paper links.
+- Add manuscripts to `files/` and add a `pdf` field to the corresponding record, for example `pdf: /files/BPR.pdf`. Omit `pdf` when no manuscript is available. An optional `publisher` field links to the publisher record. The 2026 records currently have no local PDFs.
+- Existing collection pages in `_publications/` remain available at their original URLs; their metadata is separate from the curated explorer.
+
+PDF previews use PDF.js, and icons use Lucide, loaded from pinned CDN URLs. Fonts are loaded from Google Fonts. If PDF.js cannot load, the direct PDF link remains available. The site has no decorative animations. The CV has a print-friendly layout.
+
 
 # Getting Started
 

@@ -1,64 +1,22 @@
 ---
-layout: archive
+layout: research
 title: "CV"
 permalink: /cv/
+section: cv
 author_profile: false
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  <header class="page-heading wrap"><p class="eyebrow">Academic CV / Updated October 2026</p><h1>Niall McGuire<span>.</span></h1><p>PhD researcher in Computer Science &amp; Artificial Intelligence.<br>University of Strathclyde, Glasgow, United Kingdom.</p><div class="hero-links"><a class="text-link" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><a class="text-link" href="{{ site.author.googlescholar }}">Google Scholar <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div></header>
+  <div class="cv-layout wrap">
+    <nav class="cv-nav" aria-label="CV sections"><a href="#education">Education</a><a href="#interests">Research interests</a><a href="#employment">Experience</a><a href="#selected-publications">Publications</a><a href="#service">Academic service</a><a href="#skills">Technical strengths</a></nav>
+    <div>
+      <section class="cv-section" id="education"><h2>Education</h2><article class="cv-entry"><div class="cv-entry-heading"><h3>University of Strathclyde</h3><time>2022 &ndash; present</time></div><p class="role">PhD in Computer Science &amp; Artificial Intelligence</p><p>Fully funded BAE Systems PhD scholarship. Supervised by Yashar Moshfeghi.</p><p>BAE Systems PhD Student of the Year Award (2026).</p></article><article class="cv-entry"><div class="cv-entry-heading"><h3>University of Strathclyde</h3><time>2018 &ndash; 2022</time></div><p class="role">Computer Science &mdash; First Class Honours</p><p>Charles Babbage Prize for the best fourth-year dissertation.</p></article></section>
+      <section class="cv-section" id="interests"><h2>Research interests</h2><article class="cv-entry"><h3>Information retrieval</h3><p>Language models and cross-modal learning that connect neurophysiological measures with textual information systems for neuro-adaptive information access.</p></article><article class="cv-entry"><h3>Human-computer interaction</h3><p>Production-ready systems combining temporal signal processing with interpretable machine learning for real-world neurophysiological HCI applications.</p></article><article class="cv-entry"><h3>Brain-computer interfaces &amp; signal processing</h3><p>Representation learning and multimodal data fusion for EEG, fMRI, MEG, ECG, and eye tracking, with interests in semantic information extraction and time series forecasting.</p></article></section>
+      <section class="cv-section" id="employment"><h2>Experience</h2><article class="cv-entry"><div class="cv-entry-heading"><h3>Microsoft Research</h3><time>Jun &ndash; Sep 2026</time></div><p class="role">Research intern / Redmond, Washington, United States</p><ul><li>Developed signal-processing methods with the Audio &amp; Acoustics group and BCI team, using physiological signals as objective measures of audio quality and listening effort.</li><li>Designed models to extract perceptual and cognitive correlates from neurophysiological and physiological data.</li><li>Collaborated on reproducible, deployable experimental pipelines.</li></ul></article><article class="cv-entry"><div class="cv-entry-heading"><h3>University of Strathclyde</h3><time>Jun 2023 &ndash; Jan 2024</time></div><p class="role">Research associate / Glasgow, United Kingdom</p><ul><li>Led research with BAE Systems and DSTL on pilot safety through real-time EEG, ECG, and eye-tracking analysis for mental workload classification.</li><li>Designed a real-time system combining a masked autoencoder for denoising and a recurrent neural network for workload classification.</li><li>Conducted validation studies for operational applications.</li></ul></article><article class="cv-entry"><div class="cv-entry-heading"><h3>University of Strathclyde</h3><time>Jan &ndash; May 2023</time></div><p class="role">Lead teaching assistant / Glasgow, United Kingdom</p><ul><li>Delivered practical labs for over 100 MSc students in Machine Learning and Big Data, in person and online.</li><li>Provided technical guidance and feedback on coursework and examinations.</li></ul></article></section>
+      <section class="cv-section" id="selected-publications"><h2>Selected publications</h2><ol class="cv-papers">{% for paper in site.data.research_publications limit:7 %}<li><a href="{{ '/publications/' | relative_url }}#paper-{{ paper.id }}">{{ paper.title | escape }}</a><small>{{ paper.authors }} / {{ paper.venue }} {{ paper.year }}</small></li>{% endfor %}</ol><a class="text-link" href="{{ site.author.googlescholar }}">Full publication record <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></section>
+      <section class="cv-section" id="service"><h2>Academic service</h2><article class="cv-entry"><div class="cv-entry-heading"><h3>ESSIR / FDIA 2025</h3><time>Jun 2025 &ndash; present</time></div><p>Chair &mdash; Neurophysiology Information Systems &amp; Machine Learning.</p></article><article class="cv-entry"><div class="cv-entry-heading"><h3>ACM SIGIR</h3><time>May 2024 &ndash; present</time></div><p>Reviewer &mdash; Neurophysiology Information Systems &amp; Machine Learning.</p></article><article class="cv-entry"><div class="cv-entry-heading"><h3>Artificial Intelligence &amp; Neuroscience</h3><time>May 2023 &ndash; present</time></div><p>Reviewer for the Advanced Course &amp; Symposium on Artificial Intelligence &amp; Neuroscience, and the European Conference on Artificial Intelligence &amp; Neuroscience.</p></article></section>
+      <section class="cv-section" id="skills"><h2>Technical strengths</h2><dl class="skills-list"><dt>Languages</dt><dd>Python, Java, C++, C, R, CUDA, SQL, HTML, CSS, JavaScript</dd><dt>Libraries</dt><dd>PyTorch, TensorFlow, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</dd><dt>Databases</dt><dd>MySQL, PostgreSQL, Microsoft SQL</dd></dl></section>
+    </div>
+  </div>
