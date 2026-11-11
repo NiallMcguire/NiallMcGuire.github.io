@@ -1,3 +1,13 @@
+- id: physiology-audio-2026
+  title: "Physiology-Informed Audio Quality and Listening Effort Estimation"
+  venue: arXiv
+  venue_full: "arXiv preprint"
+  year: 2026
+  authors: "Niall McGuire, Dimitra Emmanouilidou"
+  topic: hci
+  pdf: /files/Physiology_Audio_2026.pdf
+  publisher: "https://arxiv.org/abs/2610.36865"
+  summary: "Investigating consumer-grade physiological sensing for audio quality and individual listening effort estimation."
 - id: cross-sensory-eeg-2026
   title: "Cross-Sensory Comparison of EEG Signals for Brain-Based Information Retrieval"
   venue: SIGIR
@@ -5,6 +15,8 @@
   year: 2026
   authors: "Niall McGuire, Yashar Moshfeghi"
   topic: retrieval
+  pdf: /files/Cross_Sensory_SIGIR_2026.pdf
+  publisher: "https://doi.org/10.1145/3805712.3809922"
   summary: "Comparing EEG signals across sensory modalities in the context of brain-based information retrieval."
 - id: audio-passage-2026
   title: "Cross-Sensory Brain Passage Retrieval: Scaling Beyond Visual to Audio"
@@ -13,7 +25,9 @@
   year: 2026
   authors: "Niall McGuire, Yashar Moshfeghi"
   topic: retrieval
-  summary: "Extending brain passage retrieval beyond visually presented content to audio."
+  pdf: /files/Audio_BPR_2026.pdf
+  publisher: "https://doi.org/10.1007/978-3-032-21289-4_31"
+  summary: "Extending brain passage retrieval beyond visually presented content to audio. The available manuscript is the accepted preprint, titled Auditory Brain Passage Retrieval: Cross-Sensory EEG Training for Neural Information Retrieval."
 - id: query-performance-2026
   title: "On the Use of Electroencephalography in Query Performance Prediction"
   venue: TOIS
@@ -21,7 +35,29 @@
   year: 2026
   authors: "I. Tenedios, Niall McGuire, Yashar Moshfeghi"
   topic: retrieval
+  pdf: /files/Query_Performance_2026.pdf
+  publisher: "https://doi.org/10.1145/3816244"
   summary: "Investigating the use of EEG signals in query performance prediction."
+- id: eeg-subject-detection-2026
+  title: "EEG Subject Detection: Opportunity or Threat?"
+  venue: HCIS
+  venue_full: "Human-centric Computing and Information Sciences"
+  year: 2026
+  authors: "Niall McGuire, Yashar Moshfeghi"
+  topic: hci
+  pdf: /files/EEG_Subject_Detection_2026.pdf
+  publisher: "https://strathprints.strath.ac.uk/92684/"
+  summary: "Investigating subject detection from EEG signals and its implications for brain-computer interfaces."
+- id: preemptive-errors-2026
+  title: "Towards Pre-emptive Physiological Error Classification within Airborne Environments"
+  venue: CHI
+  venue_full: "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems"
+  year: 2026
+  authors: "Niall McGuire, Jacob Greene, Yashar Moshfeghi"
+  topic: hci
+  pdf: /files/Preemptive_Errors_CHI_2026.pdf
+  publisher: "https://strathprints.strath.ac.uk/96079/"
+  summary: "Investigating pre-emptive error classification from physiological signals in airborne environments."
 - id: brain-passage-2025
   title: "Towards Brain Passage Retrieval: An Investigation of EEG Query Representations"
   venue: SIGIR
@@ -63,8 +99,9 @@
   venue: LOD
   venue_full: "International Conference on Machine Learning, Optimization, and Data Science"
   year: 2024
-  authors: ""
+  authors: "Niall McGuire, Yashar Moshfeghi"
   topic: retrieval
+  pdf: /files/Imagined_Music_2024.pdf
   publisher: "https://link.springer.com/chapter/10.1007/978-3-031-53966-4_31"
   summary: "Exploring EEG signals associated with imagined music to bridge the gap between a remembered song and a textual search query."
 - id: ensemble-workload-2024
@@ -72,7 +109,8 @@
   venue: LOD
   venue_full: "International Conference on Machine Learning, Optimization, and Data Science"
   year: 2024
-  authors: ""
+  authors: "Niall McGuire, Yashar Moshfeghi"
   topic: hci
+  pdf: /files/Ensemble_Workload_2024.pdf
   publisher: "https://link.springer.com/chapter/10.1007/978-3-031-53966-4_27"
   summary: "Investigating ensemble learning methods for mental workload classification."

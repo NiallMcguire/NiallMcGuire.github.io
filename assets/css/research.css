@@ -5,14 +5,14 @@
   --green-light: #eef5f1;
   --coral: #ae4c32;
   --line: #dce4de;
-  --paper: #f8f7ef;
-  --serif: Arial, Helvetica, sans-serif;
-  --sans: Arial, Helvetica, sans-serif;
+  --paper: #eef0fb;
+  --serif: 'Trebuchet MS', Verdana, sans-serif;
+  --sans: Verdana, Tahoma, sans-serif;
   --mono: 'IBM Plex Mono', monospace;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 32px; }
-body { margin: 0; color: var(--ink); background: var(--paper); font: 16px/1.65 var(--sans); letter-spacing: 0; }
+body { margin: 0; color: var(--ink); background: var(--paper); background-image: radial-gradient(#6875ab18 .7px, transparent .7px); background-size: 12px 12px; font: 16px/1.65 var(--sans); letter-spacing: 0; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 button { font: inherit; color: inherit; cursor: pointer; }
 button:disabled { cursor: default; opacity: .35; }
