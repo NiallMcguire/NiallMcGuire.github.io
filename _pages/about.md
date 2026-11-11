@@ -18,9 +18,7 @@ redirect_from:
     <p class="profile-affiliation">Computer Science &amp; AI<br><a href="https://www.strath.ac.uk/">University of Strathclyde</a><br>Glasgow, United Kingdom</p>
     <nav class="profile-navigation" aria-label="Main navigation">
       <a href="#about">About</a>
-      <a href="#research">Research</a>
       <a href="#publications">Publications</a>
-      <a href="#experience">Experience</a>
       <a href="{{ '/cv/' | relative_url }}">Academic CV <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
     </nav>
     <div class="profile-links">
@@ -40,22 +38,6 @@ redirect_from:
       <p class="collaboration-note">I'm happy to discuss research collaborations and work at the intersection of machine learning and physiological signals. <a href="mailto:{{ site.author.email }}">Get in touch</a>.</p>
     </section>
 
-    <section class="academic-section" id="research">
-      <h2>Research interests</h2>
-      <dl class="research-topics">
-        <div><dt>Brain-based information retrieval</dt><dd>EEG query representations, language models, and cross-modal learning that connect neural responses with passage retrieval across reading and listening.</dd></div>
-        <div><dt>Multimodal signal learning</dt><dd>Representation learning and data fusion for EEG, ECG, and eye tracking, with interests extending to fMRI and MEG, semantic information extraction, and time series forecasting.</dd></div>
-        <div><dt>Neurophysiological HCI &amp; audio</dt><dd>Interpretable temporal models for mental workload and error classification in operational environments, alongside physiological measures of audio quality and listening effort.</dd></div>
-      </dl>
-    </section>
-
     {% include publication-explorer.html %}
-
-    <section class="academic-section" id="experience">
-      <div class="academic-section-heading"><h2>Experience</h2><a class="text-link" href="{{ '/cv/' | relative_url }}">Full CV <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
-      <article class="career-entry"><div><h3>Microsoft Research</h3><p class="career-role">Research intern &middot; Redmond, Washington</p></div><p class="career-date">Jun &ndash; Sep 2026</p><p class="career-description">Signal-processing methods and reproducible pipelines for physiological measures of audio quality and listening effort.</p></article>
-      <article class="career-entry"><div><h3>University of Strathclyde</h3><p class="career-role">Research associate &middot; Glasgow</p></div><p class="career-date">Jun 2023 &ndash; Jan 2024</p><p class="career-description">Research with BAE Systems and DSTL on real-time mental workload classification using EEG, ECG, and eye tracking, combining signal denoising with temporal machine learning.</p></article>
-      <article class="career-entry"><div><h3>University of Strathclyde</h3><p class="career-role">Lead teaching assistant &middot; Glasgow</p></div><p class="career-date">Jan &ndash; May 2023</p><p class="career-description">Practical labs and technical guidance for over 100 MSc students in Machine Learning and Big Data.</p></article>
-    </section>
   </div>
 </div>
