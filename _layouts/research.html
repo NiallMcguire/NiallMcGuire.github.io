@@ -26,7 +26,7 @@
       <nav aria-label="Main navigation">
         <a href="{{ '/#about' | relative_url }}">About</a>
         <a href="{{ '/publications/' | relative_url }}" {% if page.section == 'publications' %}aria-current="page"{% endif %}>Publications</a>
-        <a href="{{ '/cv/' | relative_url }}" {% if page.section == 'cv' %}aria-current="page"{% endif %}>CV</a>
+        <a href="{{ '/files/CV.pdf' | relative_url }}" download="CV.pdf">CV</a>
         <a class="contact-nav" href="mailto:{{ site.author.email }}">Get in touch <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
       </nav>
     </header>

@@ -19,7 +19,7 @@ redirect_from:
     <nav class="profile-navigation" aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
-      <a href="{{ '/cv/' | relative_url }}">Academic CV <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      <a href="{{ '/files/CV.pdf' | relative_url }}" download="CV.pdf">Academic CV <i data-lucide="download" aria-hidden="true"></i></a>
     </nav>
     <div class="profile-links">
       <a href="mailto:{{ site.author.email }}">Email <i data-lucide="mail" aria-hidden="true"></i></a>
